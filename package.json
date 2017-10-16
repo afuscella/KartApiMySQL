@@ -1,0 +1,17 @@
+{
+  "name": "kart-api-mysql",
+  "version": "1.0.0",
+  "description": "Kart Api using MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Silva",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-load": "^1.1.16",
+    "mysql": "^2.14.1"
+  }
+}
