@@ -13,7 +13,11 @@ CREATE DATABASE kart
 	COLLATE = utf8_general_ci;
 ```
 
-## MySQL tables
+### Entity relation
+
+![Screenshot](https://github.com/afuscella/KartApiMySQL/blob/master/img/entity%20relational%20diagram.png)
+
+### MySQL tables
 
 Database relationship
 
@@ -116,7 +120,7 @@ CREATE TABLE Driver (
 	DEFAULT CHARSET = utf8;
 ```
 
-## MySQL Views
+### MySQL Views
 
 *GetSeasons*
 ```
