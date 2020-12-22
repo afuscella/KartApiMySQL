@@ -1,6 +1,6 @@
 var express = require('express'),
-       load = require('express-load'),
- bodyParser = require('body-parser');
+    load = require('express-load'),
+    bodyParser = require('body-parser');
 
 /**
  * Module instantiation
@@ -11,9 +11,9 @@ module.exports = function() {
     // receive functions which will be applied on `request`
     app.use(bodyParser.json());
 
-    load('routes', {cwd : 'app'})
+    load('routes', { cwd: 'app' })
         .then('infra')
-        .then('model')  // normalizer
+        .then('model') // normalizer
         .into(app);
 
     return app;
